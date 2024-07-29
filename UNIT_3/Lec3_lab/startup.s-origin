@@ -1,0 +1,37 @@
+/*startup_cortex_m3.s
+eng hesham elngar
+*/
+
+.section .vectors
+
+.word 0x20001000	/*stack top address*/
+.word _reset	/*1 Reset*/
+.word vector_handler 	/*2 NMI*/
+.word vector_handler	/*Hard Fault*/
+.word vector_handler	/*MM Fault*/
+.word vector_handler	/*Bus Fault*/
+.word vector_handler	/*Usage Fault*/
+.word vector_handler	/*RESERVED*/
+.word vector_handler	/*RESERVED*/
+.word vector_handler	/*RESERVED*/
+.word vector_handler	/*RESERVED*/
+.word vector_handler	/*SV call*/
+.word vector_handler	/*Debug Reserved*/
+.word vector_handler	/*RESERVED*/
+.word vector_handler	/*pendSV*/
+.word vector_handler	/*sysTick*/
+.word vector_handler	/*IRQ0*/
+.word vector_handler	/*IRQ1*/
+.word vector_handler	/*IRQ2*/
+.word vector_handler	/*...*/
+	/*on to IRQ67*/
+
+
+.section .text
+
+_reset:
+  bl main
+  b .
+
+vector_handler:
+	b _reset	  
