@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1727557675 source:f:\learn-in-depth-labs\unit_4\lec 1\student_database\student_database\database.c
+	"dataBase.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1727557675 f:\learn-in-depth-labs\unit_4\lec 1\student_database\student_database\database.h
+
+1727557437 source:f:\learn-in-depth-labs\unit_4\lec 1\student_database\student_database\main.c
+	"dataBase.h"
+	<stdio.h>
+	<stdlib.h>
+
