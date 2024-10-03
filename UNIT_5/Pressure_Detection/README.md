@@ -31,5 +31,6 @@ The alarm should last for 60 seconds.”.
 ### Symbol table:
 ![Symbol_Table](https://github.com/user-attachments/assets/9e2aedae-c97b-4c41-95f2-d0a79aa36f48)
 
-
+### Data Sections:
+![Screenshot 2024-10-03 164754](https://github.com/user-attachments/assets/44fa5df5-a935-40e4-9d5d-15899b910f4f)
 
