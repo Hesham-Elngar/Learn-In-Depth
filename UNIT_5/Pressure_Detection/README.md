@@ -1,2 +1,1 @@
-![Cabin Pressure Detection.png](cabin_pressure.jpg)
-
+![Uploading Cabin Pressure Detection.png…]()
